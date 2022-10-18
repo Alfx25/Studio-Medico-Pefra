@@ -1300,6 +1300,9 @@ section {
 .faq .faq-list ul {
   padding: 0;
   list-style: none;
+  column-count: 2;
+  page-break-inside: avoid;         
+  break-inside: avoid-column;
 }
 
 .faq .faq-list li+li {
@@ -1311,6 +1314,7 @@ section {
   background: #fff;
   border-radius: 4px;
   position: relative;
+  break-inside: avoid-column;
 }
 
 .faq .faq-list a {
@@ -1372,6 +1376,8 @@ section {
     padding: 0;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Testimonials
