@@ -79,7 +79,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#appuntamento" class="appointment-btn scrollto" style="color: white;"><span class="d-none d-md-inline">Richiedi un</span> Appuntamento</a>
+      <a class="appointment-btn scrollto" style="color: white; cursor: pointer;" onclick="document.getElementById('appuntamento').scrollIntoView()"><span class="d-none d-md-inline">Richiedi un</span> Appuntamento</a>
 
     </div>
   </header><!-- End Header -->
@@ -282,7 +282,7 @@
   
   </div>
   <div style="text-align: center;" class="flex-column">
-    <a  href="#appuntamento" class="appointment-btn scrollto" style="color: white;"><span class="d-none d-md-inline">Richiedi un</span> Appuntamento</a>
+    <a class="appointment-btn scrollto" style="color: white; cursor: pointer;" onclick="document.getElementById('appuntamento').scrollIntoView()"><span class="d-none d-md-inline">Richiedi un</span> Appuntamento</a>
   </div>
 
 
@@ -518,9 +518,9 @@
       </div>
       
           <section class="appointment section-bg">
-            <div class="container">
+            <div class="container" id="appuntamento">
       
-              <div class="section-title" id="appuntamento">
+              <div class="section-title" >
                 <h2>Richiedi una consulenza</h2>
                 <p>Contattaci e prenota una confronto con noi per iniziare il tuo percorso di miglioramento psico-fisico</p>
               </div>
