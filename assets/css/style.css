@@ -1860,7 +1860,7 @@ section {
   /* flex:2 1 auto; */
   flex-grow: 2;
   flex-shrink: 1;
-  flex-basis: 187px;
+  flex-basis: 200px;
   align-self: auto;
 }
 
