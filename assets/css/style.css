@@ -805,7 +805,8 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/francione_bk.png") center center no-repeat;
+  background: url("../../StudioPefraAssets/francione.png") center center
+    no-repeat;
   background-size: cover;
   min-height: 500px;
 }
